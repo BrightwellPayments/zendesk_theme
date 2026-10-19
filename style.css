@@ -290,11 +290,11 @@ a:hover, a:active, a:focus {
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 5%;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1320px) {
   .container {
     padding: 0;
     width: 90%;
@@ -313,11 +313,11 @@ ul {
 }
 
 .error-page {
-  max-width: 1160px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 5%;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1320px) {
   .error-page {
     padding: 0;
     width: 90%;
@@ -621,7 +621,7 @@ ul {
 
 /***** Header *****/
 .header {
-  max-width: 1160px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 5%;
   position: relative;
@@ -630,7 +630,7 @@ ul {
   height: 71px;
   justify-content: space-between;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1320px) {
   .header {
     padding: 0;
     width: 90%;
@@ -1001,13 +1001,13 @@ ul {
   color: lighten($text_color, 20%);
 }
 .footer-inner {
-  max-width: 1160px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1320px) {
   .footer-inner {
     padding: 0;
     width: 90%;
@@ -1551,11 +1551,6 @@ ul {
   flex: 1;
   max-width: 100%;
 }
-@media (min-width: 1024px) {
-  .category-content {
-    flex: 0 0 80%;
-  }
-}
 
 .section-tree {
   display: flex;
@@ -1614,11 +1609,6 @@ ul {
   flex: 1;
   max-width: 100%;
 }
-@media (min-width: 1024px) {
-  .section-content {
-    flex: 0 0 80%;
-  }
-}
 .section-list {
   margin: 40px 0;
 }
@@ -1651,16 +1641,16 @@ ul {
 /***** Article *****/
 .article {
   /*
-  * The article grid is defined this way to optimize readability:
-  * Sidebar | Content | Free space
-  * 17%     | 66%     | 17%
+  * The article grid:
+  * Sidebar | Content
+  * 17%     | 83%
   */
   flex: 1 0 auto;
 }
 @media (min-width: 1024px) {
   .article {
-    flex: 1 0 66%;
-    max-width: 66%;
+    flex: 1 0 83%;
+    max-width: 83%;
     min-width: 640px;
     padding: 0 30px;
   }
